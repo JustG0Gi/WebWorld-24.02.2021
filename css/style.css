@@ -1,0 +1,61 @@
+.caption {
+	display:inline-block;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-weight: 600;
+	font-size:40px;
+	float:left;
+	width:200px;
+	margin-top:5px;
+	margin-left:160px;
+	color:white;
+
+}
+.header {
+	background:#6200E1;
+	height:60px;
+}
+.header::after {
+	content: '.';
+	display:block;
+	clear:both;
+	height:0;
+}
+.socials {
+    float:right;
+	margin-right:160px;	
+}	
+	
+.social {
+	display:inline;
+}
+img {
+	height:25px;
+	width:25px;
+	margin-right:10px;
+}
+span {
+	color:#42DCE1;
+}
+.pagination {
+	float:left;
+	margin-left:-240px;
+}
+.item {
+	display:inline-block;
+	padding-right:20px;
+	margin-top:8px;
+}
+.header2 {
+	height:60px;
+	background:pink;
+}
+.form-search {
+  display: inline-block;
+  border: 1px solid;
+  float:right;
+  margin-top:19px;
+  margin-right:-180px;
+}
+.form-search input {
+  all: unset;
+}
