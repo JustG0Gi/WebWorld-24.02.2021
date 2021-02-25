@@ -39,6 +39,7 @@ span {
 .pagination {
 	float:left;
 	margin-left:-240px;
+	
 }
 .item {
 	display:inline-block;
@@ -55,7 +56,19 @@ span {
   float:right;
   margin-top:19px;
   margin-right:-180px;
+  color:gray;
 }
 .form-search input {
   all: unset;
+}
+.link {
+	display: inline-block;
+	outline: none;
+    text-decoration: none;
+	height:32px;
+	color:gray;
+}
+.link:hover {
+  border-bottom: 3px solid;
+  color:#42DCE1;
 }
