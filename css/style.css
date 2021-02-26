@@ -14,7 +14,7 @@ body {
 
 }
 .header {
-	background:#6200E1;
+	background:#6E6E6E;
 	height:60px;
 }
 .header::after {
@@ -36,7 +36,7 @@ body {
 	width:25px;
 	margin-right:10px;
 }
-span {
+.world {
 	color:#42DCE1;
 }
 .pagination {
@@ -51,7 +51,7 @@ span {
 }
 .header2 {
 	height:60px;
-	background:pink;
+	
 }
 .form-search {
   display: inline-block;
@@ -92,3 +92,30 @@ span {
 	text-align:center;
 	color:white;
 }
+.desk {
+	position:absolute;
+	top:450px;
+	left:0;
+	text-align:center;
+	color:gray;
+	margin-left:160px;
+	margin-right:160px;
+}
+.title {
+	font-size:25px;
+}
+.iMac {
+	position:absolute;
+	top:600px;
+	left:0px;
+	text-align:center;
+	
+	
+}
+	
+.bold {
+	font-weight:bold;
+}
+
+	
+	
