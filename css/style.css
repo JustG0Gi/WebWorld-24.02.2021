@@ -2,7 +2,7 @@ body {
 	margin:0;
 }
 .container {
-    width:70%;
+    width:1200px;
     margin:0 auto;
 }
 .caption {
@@ -129,23 +129,59 @@ body {
 	clear:both;
 	height:0;
 }
+.gallery {
+	background:#C4E5F6;
+}
+.gallery::after {
+    content: ''; 
+    position: absolute;
+    right: 650px; 
+	top: 1030px;
+    border: 30px solid transparent;
+    border-bottom: 60px solid #C4E5F6;
+   }
+
+.brd {
+	border:1px solid;
+	width:72%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
 .gallery-top {
 	margin-top:50px;
 	color:gray;
+	padding-top:20px;
 }
+.pic {
+	margin-left: 40px;
+    
+}
+	
 .car {
     float:left;
-    width:32%;
-	margin-right:15px;
+    width:384px;
+	padding-top:10px;
+	border:1px solid;
+	margin-left: auto;
+    margin-right: auto;
+    
 }
 .tree {
     float:left;
-    width:32%;
-	margin-right:15px;
+    width:384px;
+	padding-top:10px;
+	border:1px solid;
+	margin-left: auto;
+    margin-right: auto;
 }
 .wheat {
     float:left;
-    width:32%;
+    width:384px;
+	padding-top:10px;
+	border:1px solid;
+	margin-left: auto;
+    margin-right: auto;
 }
 .gallery-top:after {
 	content: '.';
@@ -155,20 +191,32 @@ body {
 }
 .gallery-bottom {
 	color:gray;
+	padding-bottom:20px;
 }	
 .smoke {
     float:left;
-    width:32%;
-	margin-right:15px;
+    width:384px;
+	padding-top:10px;
+	border:1px solid;
+	margin-top:5px;
+	margin-left: auto;
+    margin-right: auto;
 }
 .grass {
     float:left;
-    width:32%;
-	margin-right:15px;
+    width:384px;
+	padding-top:10px;
+	border:1px solid;
+	margin-left: auto;
+    margin-right: auto;
 }
 .raspberry {
     float:left;
-    width:32%;
+    width:384px;
+	padding-top:10px;
+	border:1px solid;
+	margin-left: auto;
+    margin-right: auto;
 }
 .minitext {
 	margin-top:-15px;
@@ -184,21 +232,25 @@ body {
 }
 .dribbble {
 	float:left;
-	margin-right:83px;
+	
 	margin-top:22px;
+	width:25%;
 }
 .leopards {
 	float:left;
-	margin-right:83px;
+	
 	margin-top:30px;
+	width:25%;
 }
 .behance {
 	float:left;
-	margin-right:83px;
+	
 	margin-top:50px;
+	width:25%;
 }
 .puma {
 	float:left;
+	width:25%;
 }
 .sport:after {
 	content: '.';
