@@ -130,13 +130,14 @@ body {
 	height:0;
 }
 .gallery {
+	position:relative;
 	background:#C4E5F6;
 }
 .gallery::after {
     content: ''; 
     position: absolute;
-    right: 650px; 
-	top: 1030px;
+    right: 48%; 
+	top: -13%;
     border: 30px solid transparent;
     border-bottom: 60px solid #C4E5F6;
    }
