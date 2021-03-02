@@ -2,7 +2,7 @@ body {
 	margin:0;
 }
 .container {
-    width:1200px;
+    width:80%;
     margin:0 auto;
 }
 .caption {
@@ -137,14 +137,15 @@ body {
     content: ''; 
     position: absolute;
     right: 48%; 
-	top: -13%;
+	top: -12%;
     border: 30px solid transparent;
     border-bottom: 60px solid #C4E5F6;
    }
 
 .brd {
+	margin-top:-5px;
 	border:1px solid;
-	width:72%;
+	width:100%;
 	margin-left: auto;
     margin-right: auto;
 }
@@ -155,34 +156,26 @@ body {
 	padding-top:20px;
 }
 .pic {
-	margin-left: 40px;
-    
+	width:100%;
+    height:230px;
 }
 	
 .car {
     float:left;
-    width:384px;
-	padding-top:10px;
+    width:31%;
 	border:1px solid;
-	margin-left: auto;
-    margin-right: auto;
-    
+    margin-right:3%;
 }
 .tree {
     float:left;
-    width:384px;
-	padding-top:10px;
+    width:31%;
 	border:1px solid;
-	margin-left: auto;
-    margin-right: auto;
+    margin-right:3%;
 }
 .wheat {
     float:left;
-    width:384px;
-	padding-top:10px;
+    width:31%;
 	border:1px solid;
-	margin-left: auto;
-    margin-right: auto;
 }
 .gallery-top:after {
 	content: '.';
@@ -196,28 +189,23 @@ body {
 }	
 .smoke {
     float:left;
-    width:384px;
-	padding-top:10px;
+    width:31%;
 	border:1px solid;
-	margin-top:5px;
-	margin-left: auto;
-    margin-right: auto;
+	margin-right:3%;
+	margin-top:15px;
 }
 .grass {
     float:left;
-    width:384px;
-	padding-top:10px;
+    width:31%;
 	border:1px solid;
-	margin-left: auto;
-    margin-right: auto;
+	margin-right:3%;
+	margin-top:15px;
 }
 .raspberry {
     float:left;
-    width:384px;
-	padding-top:10px;
+    width:31%;
 	border:1px solid;
-	margin-left: auto;
-    margin-right: auto;
+	margin-top:15px;
 }
 .minitext {
 	margin-top:-15px;
